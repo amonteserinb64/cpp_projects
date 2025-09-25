@@ -1,23 +1,21 @@
 #include <iostream>
-#include <stdio.h>
 #include <cmath>
-
 using namespace std;
 
 int main(){
-    int x;
+    double x, y;
+    int z;
+
     cout << "Introduce tu primer número: ";
     cin >> x;
 
-    int y;
     cout << "Introduce tu segundo número: ";
     cin >> y;
 
     cout << "Quieres sumar (1), restar(2), multiplicar (3) o dividir (4) estos números? ";
-    int z;
     cin >> z;
 
-    if (z = 1) {
+    if (z == 1) {
         cout << "El resultado es: " << x + y << endl;
     } else if (z == 2) {
         cout << "El resultado es: " << x - y << endl;
