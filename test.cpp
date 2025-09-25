@@ -32,7 +32,7 @@ int main(){
     } else {
         cout << "Operación no válida." << endl;
     } 
-    cout << "Soy peruano";
+    cout << "Gracias usarme!!!" << endl;
     return 0;
 }
     
