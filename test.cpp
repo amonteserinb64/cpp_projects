@@ -30,7 +30,7 @@ int main(){
     } else {
         cout << "Operación no válida." << endl;
     } 
-    cout << "Gracias usarme!!!" << endl;
+    cout << "Gracias por usarme!!!" << endl;
     return 0;
 }
     
